@@ -13,7 +13,6 @@ import (
 )
 
 func ParamRoutesGlucoseMeaure(cx *gin.Engine, db *gorm.DB) {
-
 	glucoseMeasureRepo := repository.NewGlucoseRepository(db)
 	glucoseMeasureService := service.NewGlucoseService(glucoseMeasureRepo)
 	glucoseMeasureController := controller.NewGlucoseMeasureController(glucoseMeasureService)
