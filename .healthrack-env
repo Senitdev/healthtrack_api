@@ -1,0 +1,9 @@
+App_Env="Production"
+DB_HOST="healthrack-db.cfc0i28awphc.eu-west-3.rds.amazonaws.com"
+API_PORT=8080
+#DB_NAME="health" //Local
+DB_NAME="healthrack"
+DB_USER="postgres"
+#DB_PASSWORD="toure" //Local
+DB_PASSWORD="toure1986"
+DB_PORT=5432
